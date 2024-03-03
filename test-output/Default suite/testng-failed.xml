@@ -5,6 +5,8 @@
     <classes>
       <class name="selenium.API.RequstAPI">
         <methods>
+          <include name="getUser"/>
+          <include name="deleteUser"/>
           <include name="updateUser"/>
           <include name="createUser"/>
         </methods>
